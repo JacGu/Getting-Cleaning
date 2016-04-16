@@ -35,3 +35,10 @@ for ( i in 1:length(neatData$act)){
 print(neatData[1:5,]
 
 ## Appropiate variable names.
+colnames(neatData) <- c("ACTIVITY","PERSON","AVERAGE","STDEVIATION")
+print(neatData[1:5,1:4])
+
+## Final second dataset.
+finalDataset <- select(neatData,ACTIVITY,PERSON,AVERAGE)
+print(finalDataset[1:5,])
+print(finalDataset[92686:92691,])
