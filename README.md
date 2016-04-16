@@ -42,3 +42,4 @@ print(neatData[1:5,1:4])
 finalDataset <- select(neatData,ACTIVITY,PERSON,AVERAGE)
 print(finalDataset[1:5,])
 print(finalDataset[92686:92691,])
+xxxx
